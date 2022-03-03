@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(218, 218, 233);
+}
+
+/* Start Application Button Styling */
+#tsidStartApp {
+    margin:1rem;
+    background-color: rgb(88, 88, 143);
+    color: #fff;
+    padding:0.5rem;
+}
+
+/* radio Button styling */
+
+#tsidRadioBtn1, #tsidRadioBtn2 {
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    margin-left: 7rem;
+    margin-top: 2rem;
+
+}
+ 
+#tsidInputField1, #tsidInputField2 {
+    padding: 0.5rem;
+    margin: 2.4rem;
+}
+#tsidAddUserBtn {
+    padding: 0.5rem;
+    background-color: rgb(88, 88, 143);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* This Div contains the LeftDiv(table structure)
+ and the right div(TextArea) */
+#tsidMainContainer {
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* LeftDiv and RightDiv Styling*/
+#tsidContainerLeftDiv,#tsidContainerRightDiv {
+    width: 45%;
+    height:20rem;
+    border:1px solid black;
+    overflow-y: scroll;
+
+}
+/* Table 'using table' styling */
+table {
+    border: 1px solid black;
+    min-width: 100%;
+    border-collapse: collapse;
+
+}
+#tsidHeaderofTable {
+    background-color: rgb(136, 136, 19);
+    color: #fff;
+    text-align: left;
+    
+}
+th ,td {
+    border: 1px solid black;
+    width: 33%;
+    padding: 0.3rem;
+    
+}
+tr:nth-child(even) {
+    background-color: rgb(231, 231, 100);
+}
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+/* Table 'using div' styling */
+#tsidUsingDiv {
+    border: 1px solid black;
+   
+}
+.tsclsTrOfDiv {
+    display: flex;
+    background-color: rgb(88, 88, 143);
+    color: #fff;
+}
+.tsclsDataDiv{
+    border: 1px solid black;
+    padding: 0.3rem;
+    width: 33.33%;
+
+}
+.tsclsActualTrOfDiv {
+    display: flex;
+}
+.tsclsActualTrOfDiv:nth-child(even){
+    background-color: rgb(132, 132, 189);
+}
+#tsidTextArea {
+    height: 100%;
+    width: 100%;
+    resize: none;
+}
+
+#tsidLoadJSONBtn {
+    background-color: rgb(63, 63, 148);
+    color: #fff;
+    margin-left: 2.4rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+#tsidGenerateJSONBtn {
+    background-color: rgb(63, 63, 148);
+    color: #fff;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
